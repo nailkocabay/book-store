@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="900.0" style="-fx-background-color: #FFAC35;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.AnaEkranKontrol">
+   <children>
+      <TextField fx:id="txtKitapAdi" layoutX="185.0" layoutY="191.0" promptText="Kitap Adı" />
+      <TextField fx:id="txtYazarID" layoutX="169.0" layoutY="66.0" promptText="Yazar ID" />
+      <TextField fx:id="txtKitapID" layoutX="487.0" layoutY="191.0" promptText="Kitap ID" />
+      <TextField fx:id="txtFiyat" layoutX="185.0" layoutY="232.0" promptText="Fiyat" />
+      <TextField fx:id="txtStok" layoutX="487.0" layoutY="241.0" promptText="Stok" />
+      <Label layoutX="69.0" layoutY="195.0" text="Kitap Adı:" />
+      <Label layoutX="69.0" layoutY="236.0" text="Fiyat:" />
+      <Label layoutX="396.0" layoutY="195.0" text="Kitap ID:" />
+      <Label layoutX="64.0" layoutY="69.0" prefHeight="18.0" prefWidth="61.0" text="Yazar ID:" />
+      <Label layoutX="397.0" layoutY="236.0" text="Stok:" />
+      <Button fx:id="KitapEkle" layoutX="696.0" layoutY="244.0" mnemonicParsing="false" onAction="#KitapEklemeButon" prefHeight="61.0" prefWidth="120.0" stylesheets="@buton.css" text="Kitap Ekle" />
+      <Label layoutX="64.0" layoutY="35.0" prefHeight="18.0" prefWidth="61.0" text="Yazar Adı:" />
+      <Button fx:id="YazarEkle" layoutX="331.0" layoutY="40.0" mnemonicParsing="false" onAction="#YazarEkleButon" prefHeight="45.0" prefWidth="97.0" stylesheets="@buton.css" text="Yazar Ekle" />
+      <TextField fx:id="txtYazarAdi" layoutX="169.0" layoutY="32.0" promptText="Yazar Adı" />
+      <TextField fx:id="txtISBN" layoutX="705.0" layoutY="191.0" promptText="ISBN" />
+      <Label layoutX="668.0" layoutY="195.0" text="ISBN:" />
+      <TextField fx:id="txtYayineviID" layoutX="185.0" layoutY="275.0" promptText="Yayınevi ID" />
+      <TextField fx:id="txtGenre" layoutX="487.0" layoutY="287.0" promptText="Tür ID" />
+      <Label layoutX="69.0" layoutY="279.0" text="Yayınevi ID:" />
+      <Label layoutX="392.0" layoutY="288.0" text="Tür ID:" />
+      <TextField fx:id="txtResimID" layoutX="609.0" layoutY="26.0" promptText="Resim ID" />
+      <TextField fx:id="txtResimURL" layoutX="609.0" layoutY="90.0" promptText="Resim URL " />
+      <Label layoutX="500.0" layoutY="30.0" text="Resim ID:" />
+      <Label layoutX="502.0" layoutY="94.0" text="Resim URL:" />
+      <Button fx:id="ImageEkle" layoutX="771.0" layoutY="46.0" mnemonicParsing="false" onAction="#ImageEkleButon" prefHeight="45.0" prefWidth="89.0" stylesheets="@buton.css" text="Resim Ekle" />
+      <TextField fx:id="txtKitapID1" layoutX="609.0" layoutY="59.0" promptText="Kitap ID" />
+      <Label layoutX="502.0" layoutY="63.0" text="Kitap ID:" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.deneme.AnaEkranKontrol" alignment="CENTER" padding="20">
+    <Label text="Kitap Ekle" style="-fx-font-size: 16; -fx-font-weight: bold;" />
+
+    <TextField fx:id="txtKitapAdi" promptText="Kitap Adı" />
+    <TextField fx:id="txtYazar" promptText="Yazar Adı" />
+    <TextField fx:id="txtYayinevi" promptText="Yayınevi" />
+    <TextField fx:id="txtFiyat" promptText="Fiyat" />
+    <TextField fx:id="txtStok" promptText="Stok" />
+
+    <Button text="Ekle"  />
+</VBox>

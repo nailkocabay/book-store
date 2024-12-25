@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.deneme.AnaEkranKontrol"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label layoutX="10" layoutY="10" text="Title:" />
+        <TextField fx:id="titleField" layoutX="100" layoutY="10" />
+
+        <Label layoutX="10" layoutY="50" text="Author Name:" />
+        <TextField fx:id="authorField" layoutX="100" layoutY="50" />
+
+        <Label layoutX="10" layoutY="90" text="Publisher Name:" />
+        <TextField fx:id="publisherField" layoutX="100" layoutY="90" />
+
+        <Label layoutX="10" layoutY="130" text="Genre ID:" />
+        <TextField fx:id="genreField" layoutX="100" layoutY="130" />
+
+        <Label layoutX="10" layoutY="170" text="Price:" />
+        <TextField fx:id="priceField" layoutX="100" layoutY="170" />
+
+        <Label layoutX="10" layoutY="210" text="Stock Quantity:" />
+        <TextField fx:id="stockField" layoutX="100" layoutY="210" />
+
+        <Label layoutX="10" layoutY="250" text="ISBN:" />
+        <TextField fx:id="isbnField" layoutX="100" layoutY="250" />
+
+        <Label layoutX="10" layoutY="290" text="Image URL:" />
+        <TextField fx:id="imageField" layoutX="100" layoutY="290" />
+
+        <Button fx:id="saveButton" layoutX="100" layoutY="330" text="Save" onAction="#saveBook" />
+    </children>
+
+</AnchorPane>

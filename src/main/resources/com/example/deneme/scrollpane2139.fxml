@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane hgap="10" vgap="10" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deneme.AnaEkranKontrol">
+    <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+    <AnchorPane prefHeight="51.0" prefWidth="900.0" style="-fx-background-color: #FFAC35;">
+        <children>
+            <TextField fx:id="arama" layoutX="28.0" layoutY="9.0" prefHeight="26.0" prefWidth="388.0" />
+            <ImageView fitHeight="145.0" fitWidth="28.0" layoutX="388.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@magnifying.png" />
+                </image>
+            </ImageView>
+            <Button fx:id="exit" layoutX="845.0" layoutY="7.0" mnemonicParsing="false" onAction="#ExitButon" prefHeight="31.0" prefWidth="37.0" stylesheets="@empty_button.css">
+                <graphic>
+                    <ImageView fitHeight="23.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@exit.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+              <ImageView fitHeight="21.0" fitWidth="23.0" layoutX="673.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@user.png" />
+                  </image>
+              </ImageView>
+               <Button fx:id="sepet" layoutX="779.0" layoutY="6.0" mnemonicParsing="false" onAction="#SepetButon" prefHeight="31.0" prefWidth="37.0" stylesheets="@empty_button.css">
+                  <graphic>
+                     <ImageView fitHeight="23.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@basket.png" />
+                        </image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+               <Button fx:id="KitapEkleButon" layoutX="718.0" layoutY="6.0" mnemonicParsing="false" onAction="#KitapEkleButon" prefHeight="31.0" prefWidth="37.0" stylesheets="@empty_button.css">
+                  <graphic>
+                     <ImageView fitHeight="23.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@plusplus.png" />
+                        </image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+
+        </children>
+    </AnchorPane>
+    <VBox fx:id="bookContainer" prefHeight="600.0" prefWidth="900.0" spacing="10.0" />
+    <!-- Placeholder for dynamically loaded books -->
+
+    </children>
+    </VBox>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

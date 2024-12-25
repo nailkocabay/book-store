@@ -1,0 +1,14 @@
+.button{
+	-fx-background-color: #212121;
+	-fx-background-radius: 7px;
+	-fx-border-radius: 7px;
+	-fx-border-color: #AAAAAA;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 14px;
+	-fx-font-family: "Tahoma";
+}
+.button:hover{
+	-fx-background-color: #555555;
+	-fx-cursor: hand;
+}
+
