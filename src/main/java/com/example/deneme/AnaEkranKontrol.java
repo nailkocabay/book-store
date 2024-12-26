@@ -177,17 +177,7 @@ public class AnaEkranKontrol {
 
     }
 
-    //butonları bağlamadım daha ana ekranda
 
-    /*public void KullaniciAdiYazdir(){
-        //aha sıçtığımız yer
-    }
-
-
-    public void KullaniciButon() throws IOException {
-            ekranOlustur("KullanıcıBilgiEkran.fxml");
-            ekranKapat();
-        }*/
     public void KitapEkleButon() throws IOException{
         System.out.println("Kitap Ekleme Ekranı");
         ekranOlustur("KitapEkleme.fxml");
@@ -378,9 +368,7 @@ public class AnaEkranKontrol {
         ekranKapat();
     }
 
-    /*public void SiparisButon() throws IOException{
-        ekranOlustur(""); //bunun da fxml ini oluşturmak lazım
-    }*/
+
 
 
 
